@@ -1,12 +1,14 @@
-// app.js入门模块
-// 职责：创建服务
-// 做一些服务相关配置
-// 	模板引擎
-// 	body-parser 解析表单 post 请求体
-// 	提供静态资源服务
-// 挂载路由
-// 监听端口启动服务
-
+/**
+ * app.js 入门模块
+ * 职责：
+ *   创建服务
+ *   做一些服务相关配置
+ *     模板引擎
+ *     body-parser 解析表单 post 请求体
+ *     提供静态资源服务
+ *   挂载路由
+ *   监听端口启动服务
+ */
 
 var express = require('express')
 var router = require('./router')
